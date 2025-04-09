@@ -37,7 +37,8 @@ public class WordCount {
 		// FIXME
 		Map<String, Integer> Map = new HashMap<String, Integer>();
 		for(int i = 0; i < words.size(); i++) {
-			if(words.get(i).equals(Map.get(0))){
+			for(int j = 0; j < )
+			if(words.get(i).equals(Map.get(words))){
 				Map.put(words.get(i), Map.get(1)+1);
 			}else {
 				Map.put(words.get(i), 1);
